@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/El_Salvador',
 
     /*
     |--------------------------------------------------------------------------
@@ -167,11 +167,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Laradex\Providers\AppServiceProvider::class,
+        Laradex\Providers\AuthServiceProvider::class,
+        // Laradex\Providers\BroadcastServiceProvider::class,
+        Laradex\Providers\EventServiceProvider::class,
+        Laradex\Providers\RouteServiceProvider::class,
 
     ],
 

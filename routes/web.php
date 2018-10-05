@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('prueba/{name}/prueba/{lastname}', 'PruebaController@prueba1');
+
+Route::resource('trainers', 'TrainerController');
+
+/*
+Route::get('/name/{name}/lastname/{lastname}', function($name, $lastname = NULL) {
+    return 'Hola soy '. $name. $lastname;
+});*/
